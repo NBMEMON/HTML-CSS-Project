@@ -1,0 +1,67 @@
+<!-- membership.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Club - Membership</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Membership</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="indoor.html">Indoor Sports</a></li>
+                <li><a href="outdoor.html">Outdoor Sports</a></li>
+                <li><a href="recreation.html">Recreation</a></li>
+                <li><a href="membership.html" class="active">Membership</a></li>
+                <li><a href="events.html">Annual Events</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="complaints.html">Complaints</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sportsinfo.html">Sports Info</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="section-title">Become a Member</h2>
+            <p>Join our community and enjoy access to all our facilities and events. Fill out the form below to apply for membership.</p>
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="membership-type">Membership Type:</label>
+                <select id="membership-type" name="membership-type" required>
+                    <option value="individual">Individual</option>
+                    <option value="family">Family</option>
+                    <option value="student">Student</option>
+                    <option value="senior">Senior Citizen</option>
+                </select>
+
+                <label for="message">Additional Information:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <input type="submit" value="Apply Now">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sports Club. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
